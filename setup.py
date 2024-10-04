@@ -5,16 +5,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     readme = fh.read()
 
 setup(
-    name="nlp4web",
+    name="nlp4web-codebase",
     version="0.0.0",
     author="Kexin Wang",
     author_email="kexin.wang.2049@gmail.com",
     description="Codebase of teaching materials for NLP4Web.",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://https://github.com/kwang2049/nlp4web",
+    url="https://https://github.com/kwang2049/nlp4web-codebase",
     project_urls={
-        "Bug Tracker": "https://github.com/kwang2049/nlp4web/issues",
+        "Bug Tracker": "https://github.com/kwang2049/nlp4web-codebase/issues",
     },
     packages=find_packages(),
     classifiers=[
