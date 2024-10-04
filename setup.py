@@ -25,7 +25,8 @@ setup(
     python_requires=">=3.10",
     install_requires=[
         "nltk==3.9.1",
-        "numpy==2.1.1",
+        "numpy",
+        "scipy",
         "pandas==2.2.3",
         "tqdm==4.66.5",
         "ujson==5.10.0",
