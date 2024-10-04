@@ -1,6 +1,6 @@
 from typing import Dict, List
-from nlp4web.ir.data_loaders import IRDataset, Split
-from nlp4web.ir.data_loaders.dm import Document, Query, QRel
+from nlp4web_codebase.ir.data_loaders import IRDataset, Split
+from nlp4web_codebase.ir.data_loaders.dm import Document, Query, QRel
 from datasets import load_dataset
 import joblib
 
@@ -61,7 +61,7 @@ def load_sciq(verbose: bool = False) -> IRDataset:
 
 
 if __name__ == "__main__":
-    # python -m nlp4web.ir.data_loaders.sciq
+    # python -m nlp4web_codebase.ir.data_loaders.sciq
     import ujson
     import time
 

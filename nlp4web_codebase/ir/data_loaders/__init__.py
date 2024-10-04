@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from enum import Enum
 from typing import Dict, List
-from nlp4web.ir.data_loaders.dm import Document, Query, QRel
+from nlp4web_codebase.ir.data_loaders.dm import Document, Query, QRel
 
 
 class Split(str, Enum):
