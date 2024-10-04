@@ -30,6 +30,6 @@ setup(
         "tqdm==4.66.5",
         "ujson==5.10.0",
         "joblib==1.4.2",
-        "datasets==3.0.1"
+        "datasets==3.0.1",
     ],
 )
