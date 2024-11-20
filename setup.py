@@ -32,6 +32,6 @@ setup(
         "ujson==5.10.0",
         "joblib==1.4.2",
         "datasets==3.0.1",
-        "pytrec_eval==0.5",
+        "pytrec-eval-terrier==0.5.6",
     ],
 )
